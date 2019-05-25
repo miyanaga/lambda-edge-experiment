@@ -1,0 +1,66 @@
+{
+    "Records": [
+        {
+            "cf": {
+                "config": {
+                    "distributionDomainName": "d2076ac8u7f6yb.cloudfront.net",
+                    "distributionId": "E36EJ026GNS4TC",
+                    "eventType": "origin-request"
+                },
+                "request": {
+                    "clientIp": "27.140.80.136",
+                    "headers": {
+                        "user-agent": [
+                            {
+                                "key": "User-Agent",
+                                "value": "Amazon CloudFront"
+                            }
+                        ],
+                        "via": [
+                            {
+                                "key": "Via",
+                                "value": "1.1 4707307449b1812d3fffd7d23180ebde.cloudfront.net (CloudFront)"
+                            }
+                        ],
+                        "x-at-viewer-request": [
+                            {
+                                "key": "x-at-viewer-request",
+                                "value": "2019-05-25T10:01:23.096Z"
+                            }
+                        ],
+                        "x-forwarded-for": [
+                            {
+                                "key": "X-Forwarded-For",
+                                "value": "27.140.80.136"
+                            }
+                        ],
+                        "host": [
+                            {
+                                "key": "Host",
+                                "value": "example.com"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "origin": {
+                        "custom": {
+                            "customHeaders": {},
+                            "domainName": "example.com",
+                            "keepaliveTimeout": 5,
+                            "path": "",
+                            "port": 80,
+                            "protocol": "http",
+                            "readTimeout": 30,
+                            "sslProtocols": [
+                                "TLSv1",
+                                "SSLv3"
+                            ]
+                        }
+                    },
+                    "querystring": "name1=value1&name2=value2",
+                    "uri": "/dump-origin-request-event"
+                }
+            }
+        }
+    ]
+}

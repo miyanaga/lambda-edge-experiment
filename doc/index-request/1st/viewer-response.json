@@ -1,0 +1,113 @@
+
+{
+    "Records": [
+        {
+            "cf": {
+                "config": {
+                    "distributionDomainName": "d2076ac8u7f6yb.cloudfront.net",
+                    "distributionId": "E36EJ026GNS4TC",
+                    "eventType": "viewer-response",
+                    "requestId": "cNtm8rYe6u4xKlaclVdwGUG1hPdtlu4zw2N8xGRUNLPHRDLN0oEgag=="
+                },
+                "request": {
+                    "clientIp": "27.140.80.136",
+                    "headers": {
+                        "host": [
+                            {
+                                "key": "Host",
+                                "value": "d2076ac8u7f6yb.cloudfront.net"
+                            }
+                        ],
+                        "user-agent": [
+                            {
+                                "key": "User-Agent",
+                                "value": "curl/7.54.0"
+                            }
+                        ],
+                        "accept": [
+                            {
+                                "key": "accept",
+                                "value": "*/*"
+                            }
+                        ],
+                        "x-at-viewer-request": [
+                            {
+                                "key": "x-at-viewer-request",
+                                "value": "2019-05-25T10:00:40.956Z"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "querystring": "name1=value1&name2=value2",
+                    "uri": "/index.html"
+                },
+                "response": {
+                    "headers": {
+                        "cache-control": [
+                            {
+                                "key": "Cache-Control",
+                                "value": "max-age=604800"
+                            }
+                        ],
+                        "date": [
+                            {
+                                "key": "Date",
+                                "value": "Sat, 25 May 2019 10:00:41 GMT"
+                            }
+                        ],
+                        "etag": [
+                            {
+                                "key": "ETag",
+                                "value": "\"1541025663+gzip+ident\""
+                            }
+                        ],
+                        "expires": [
+                            {
+                                "key": "Expires",
+                                "value": "Sat, 01 Jun 2019 10:00:41 GMT"
+                            }
+                        ],
+                        "last-modified": [
+                            {
+                                "key": "Last-Modified",
+                                "value": "Fri, 09 Aug 2013 23:54:35 GMT"
+                            }
+                        ],
+                        "server": [
+                            {
+                                "key": "Server",
+                                "value": "ECS (oxr/836C)"
+                            }
+                        ],
+                        "x-at-origin-response": [
+                            {
+                                "key": "x-at-origin-response",
+                                "value": "2019-05-25T10:00:41.753Z"
+                            }
+                        ],
+                        "vary": [
+                            {
+                                "key": "Vary",
+                                "value": "Accept-Encoding,Accept-Encoding"
+                            }
+                        ],
+                        "content-type": [
+                            {
+                                "key": "Content-Type",
+                                "value": "text/html; charset=UTF-8"
+                            }
+                        ],
+                        "content-length": [
+                            {
+                                "key": "Content-Length",
+                                "value": "1270"
+                            }
+                        ]
+                    },
+                    "status": "200",
+                    "statusDescription": "OK"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "Records": [
+        {
+            "cf": {
+                "config": {
+                    "distributionDomainName": "d2076ac8u7f6yb.cloudfront.net",
+                    "distributionId": "E36EJ026GNS4TC",
+                    "eventType": "viewer-response",
+                    "requestId": "CaG1JYe9BDHesuQtDa344l1qM2rOEuyTgxzu5xvBPMhOI62BbMnnnw=="
+                },
+                "request": {
+                    "clientIp": "27.140.80.136",
+                    "headers": {
+                        "host": [
+                            {
+                                "key": "Host",
+                                "value": "d2076ac8u7f6yb.cloudfront.net"
+                            }
+                        ],
+                        "user-agent": [
+                            {
+                                "key": "User-Agent",
+                                "value": "curl/7.54.0"
+                            }
+                        ],
+                        "accept": [
+                            {
+                                "key": "accept",
+                                "value": "*/*"
+                            }
+                        ],
+                        "x-at-viewer-request": [
+                            {
+                                "key": "x-at-viewer-request",
+                                "value": "2019-05-25T10:01:33.471Z"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "querystring": "name1=value1&name2=value2",
+                    "uri": "/dump-origin-request-event"
+                },
+                "response": {
+                    "headers": {
+                        "server": [
+                            {
+                                "key": "Server",
+                                "value": "CloudFront"
+                            }
+                        ],
+                        "date": [
+                            {
+                                "key": "Date",
+                                "value": "Sat, 25 May 2019 10:01:23 GMT"
+                            }
+                        ],
+                        "age": [
+                            {
+                                "key": "Age",
+                                "value": "10"
+                            }
+                        ],
+                        "content-type": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "content-length": [
+                            {
+                                "key": "Content-Length",
+                                "value": "1891"
+                            }
+                        ]
+                    },
+                    "status": "200",
+                    "statusDescription": "OK"
+                }
+            }
+        }
+    ]
+}

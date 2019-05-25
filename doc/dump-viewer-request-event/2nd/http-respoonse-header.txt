@@ -1,0 +1,8 @@
+HTTP/2 200 
+content-type: application/json
+content-length: 1182
+server: CloudFront
+date: Sat, 25 May 2019 10:01:12 GMT
+x-cache: LambdaGeneratedResponse from cloudfront
+via: 1.1 e8604f361da7dc464552f4142ac9dbda.cloudfront.net (CloudFront)
+x-amz-cf-id: N4UnuZvRUgSkVPsV0HH8jOQjGHVRxB06YWePM9ICl3dfk53Pnk56Mg==

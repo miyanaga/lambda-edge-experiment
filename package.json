@@ -1,0 +1,14 @@
+{
+  "name": "lambda-edge-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sls deploy"
+  },
+  "devDependencies": {
+    "serverless": "^1.43.0",
+    "serverless-plugin-cloudfront-lambda-edge": "^2.1.0"
+  },
+  "dependencies": {}
+}

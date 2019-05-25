@@ -1,0 +1,75 @@
+plugins:
+  - serverless-plugin-cloudfront-lambda-edge
+
+service: lambda-edge-experiment # NOTE: update this with your service name
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+# frameworkVersion: "=X.X.X"
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: prod
+  region: us-east-1
+  profile: default
+  memorySize: 128
+
+package:
+  exclude:
+    - node_modules/**
+
+functions:
+  viewerRequest:
+    handler: handler.viewerRequest
+    timeout: 5
+    lambdaAtEdge:
+      distribution: lambdaEdgeExperimentDistribution
+      eventType: viewer-request
+  originRequest:
+    handler: handler.originRequest
+    timeout: 5
+    lambdaAtEdge:
+      distribution: lambdaEdgeExperimentDistribution
+      eventType: origin-request
+  originResponse:
+    handler: handler.originResponse
+    timeout: 5
+    lambdaAtEdge:
+      distribution: lambdaEdgeExperimentDistribution
+      eventType: origin-response
+  viewerResponse:
+    handler: handler.viewerResponse
+    timeout: 5
+    lambdaAtEdge:
+      distribution: lambdaEdgeExperimentDistribution
+      eventType: viewer-response
+
+resources:
+  Resources:
+    lambdaEdgeExperimentDistribution:
+      Type: AWS::CloudFront::Distribution
+      Properties:
+        DistributionConfig:
+          Origins:
+            - Id: DefaultOrigin
+              DomainName: example.com
+              CustomOriginConfig:
+                HTTPPort: '80'
+                HTTPSPort: '443'
+                OriginProtocolPolicy: http-only
+          Enabled: true
+          Comment: Lambda Edge Experiment
+          DefaultCacheBehavior:
+            TargetOriginId: DefaultOrigin
+            ViewerProtocolPolicy: allow-all
+            DefaultTTL: 300
+            MinTTL: 300
+            MaxTTL: 300
+            Compress: true
+            ForwardedValues:
+              QueryString: true
+              Cookies:
+                Forward: none
+          PriceClass: PriceClass_200
+          HttpVersion: http2

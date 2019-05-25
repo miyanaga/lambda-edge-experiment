@@ -1,0 +1,132 @@
+{
+    "Records": [
+        {
+            "cf": {
+                "config": {
+                    "distributionDomainName": "d2076ac8u7f6yb.cloudfront.net",
+                    "distributionId": "E36EJ026GNS4TC",
+                    "eventType": "origin-response"
+                },
+                "request": {
+                    "clientIp": "27.140.80.136",
+                    "headers": {
+                        "user-agent": [
+                            {
+                                "key": "User-Agent",
+                                "value": "Amazon CloudFront"
+                            }
+                        ],
+                        "via": [
+                            {
+                                "key": "Via",
+                                "value": "1.1 28e264376c748b0c609c2c9d384efff6.cloudfront.net (CloudFront)"
+                            }
+                        ],
+                        "x-at-viewer-request": [
+                            {
+                                "key": "x-at-viewer-request",
+                                "value": "2019-05-25T10:00:40.956Z"
+                            }
+                        ],
+                        "host": [
+                            {
+                                "key": "Host",
+                                "value": "example.com"
+                            }
+                        ],
+                        "x-at-origin-request": [
+                            {
+                                "key": "x-at-origin-request",
+                                "value": "2019-05-25T10:00:41.271Z"
+                            }
+                        ],
+                        "x-forwarded-for": [
+                            {
+                                "key": "X-Forwarded-For",
+                                "value": "27.140.80.136"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "origin": {
+                        "custom": {
+                            "customHeaders": {},
+                            "domainName": "example.com",
+                            "keepaliveTimeout": 5,
+                            "path": "",
+                            "port": 80,
+                            "protocol": "http",
+                            "readTimeout": 30,
+                            "sslProtocols": [
+                                "TLSv1",
+                                "SSLv3"
+                            ]
+                        }
+                    },
+                    "querystring": "name1=value1&name2=value2",
+                    "uri": "/index.html"
+                },
+                "response": {
+                    "headers": {
+                        "cache-control": [
+                            {
+                                "key": "Cache-Control",
+                                "value": "max-age=604800"
+                            }
+                        ],
+                        "date": [
+                            {
+                                "key": "Date",
+                                "value": "Sat, 25 May 2019 10:00:41 GMT"
+                            }
+                        ],
+                        "etag": [
+                            {
+                                "key": "Etag",
+                                "value": "\"1541025663+gzip+ident\""
+                            }
+                        ],
+                        "expires": [
+                            {
+                                "key": "Expires",
+                                "value": "Sat, 01 Jun 2019 10:00:41 GMT"
+                            }
+                        ],
+                        "last-modified": [
+                            {
+                                "key": "Last-Modified",
+                                "value": "Fri, 09 Aug 2013 23:54:35 GMT"
+                            }
+                        ],
+                        "server": [
+                            {
+                                "key": "Server",
+                                "value": "ECS (oxr/836C)"
+                            }
+                        ],
+                        "vary": [
+                            {
+                                "key": "Vary",
+                                "value": "Accept-Encoding"
+                            }
+                        ],
+                        "content-type": [
+                            {
+                                "key": "Content-Type",
+                                "value": "text/html; charset=UTF-8"
+                            }
+                        ],
+                        "content-length": [
+                            {
+                                "key": "Content-Length",
+                                "value": "1270"
+                            }
+                        ]
+                    },
+                    "status": "200",
+                    "statusDescription": "OK"
+                }
+            }
+        }
+    ]
+}

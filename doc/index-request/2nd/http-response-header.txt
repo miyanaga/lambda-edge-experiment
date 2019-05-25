@@ -1,0 +1,16 @@
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 1270
+cache-control: max-age=604800
+date: Sat, 25 May 2019 10:00:41 GMT
+etag: "1541025663+gzip+ident"
+expires: Sat, 01 Jun 2019 10:00:41 GMT
+last-modified: Fri, 09 Aug 2013 23:54:35 GMT
+server: ECS (oxr/836C)
+x-at-origin-response: 2019-05-25T10:00:41.753Z
+vary: Accept-Encoding,Accept-Encoding
+age: 11
+x-at-viewer-response: 2019-05-25T10:00:52.335Z
+x-cache: Hit from cloudfront
+via: 1.1 a5ce8f6ab58b7805ae1e744fe904b991.cloudfront.net (CloudFront)
+x-amz-cf-id: aZOdJapZ-seRTJzsR2ww-bRDD5hdnkWODjokvqRzKRUiktsuiDMCXg==

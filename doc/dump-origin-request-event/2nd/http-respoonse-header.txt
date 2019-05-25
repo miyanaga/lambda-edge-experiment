@@ -1,0 +1,10 @@
+HTTP/2 200 
+content-type: application/json
+content-length: 1891
+server: CloudFront
+date: Sat, 25 May 2019 10:01:23 GMT
+age: 10
+x-at-viewer-response: 2019-05-25T10:01:33.490Z
+x-cache: Hit from cloudfront
+via: 1.1 d6f98d2db857c32baf937a1afb4b1b6c.cloudfront.net (CloudFront)
+x-amz-cf-id: CaG1JYe9BDHesuQtDa344l1qM2rOEuyTgxzu5xvBPMhOI62BbMnnnw==
